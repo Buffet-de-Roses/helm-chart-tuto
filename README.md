@@ -120,7 +120,7 @@ The following example will return the annotations present for the mynamespace ob
 
 :warning: To test lookup against a running cluster, **helm template|install|upgrade|delete|rollback --dry-run=server** should be used instead to allow cluster connection :warning:
 
-:exclamation:**Operators are function**, for templates, the operators (eq, ne, lt, gt, and, or, etc ...) are all implemented as functions. In pipelines, operations can be grouped with parentheses ( , and ).:exclamation:
+:exclamation: **Operators are function**, for templates, the operators (eq, ne, lt, gt, and, or, etc ...) are all implemented as functions. In pipelines, operations can be grouped with parentheses ( , and ). :exclamation:
 
 #### Flow control
 
@@ -151,6 +151,7 @@ A pipeline is evaluated as false if the value is :
 - an empty string
 - a nil (empty or null)
 - an empty collection (map, slice, tuple, dict, array)
+
 :warning:
 
 ##### With
