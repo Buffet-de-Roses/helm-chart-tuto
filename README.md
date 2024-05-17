@@ -152,8 +152,6 @@ A pipeline is evaluated as false if the value is :
 - a nil (empty or null)
 - an empty collection (map, slice, tuple, dict, array)
 
-:warning:
-
 ##### With
 
 This controls variable scoping. Recall that **.** is a reference to the current scope.
